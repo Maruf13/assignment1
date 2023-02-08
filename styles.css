@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.btn-primary {
+  color: white;
+  background-color: #f15b22;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 1px;
+  font-size: 20px;
+}
+
+header {
+  background: url("images/banner/banner1.png");
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header-text {
+  padding-top: 200px;
+  padding-left: 55%;
+  padding-right: 10%;
+  text-align: right;
+}
+
+.heading-title {
+  font-size: 65px;
+  color: #151414;
+}
+.heading-subtitle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  color: #444343;
+}
+
+.flex-container {
+  display: flex;
+}
