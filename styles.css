@@ -10,7 +10,10 @@
   border: 1px;
   font-size: 20px;
 }
-
+section {
+  padding-top: 100px;
+}
+/* ------header of the website------ */
 header {
   background: url("images/banner/banner1.png");
   height: 700px;
@@ -37,4 +40,103 @@ header {
 
 .flex-container {
   display: flex;
+  justify-content: space-around;
+}
+
+/* -------- Person Failure tips and Tricks---- */
+.person img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 200px;
+  width: 400px;
+}
+.failure {
+  padding-left: 10%;
+  padding-right: 20%;
+  padding-top: 70px;
+}
+.title {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.failure ul li {
+  list-style: none;
+  padding-top: 8px;
+}
+.failure ul {
+  padding-left: 0px;
+}
+.tick {
+  color: #16d887;
+  padding-right: 10px;
+}
+/* My plans */
+.item {
+  text-align: center;
+}
+
+.container {
+  background: url("images/watch.png"), url("images/gradient1.png");
+  background-blend-mode: screen;
+  height: 360px;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  padding-left: 100px;
+  padding-top: 80px;
+}
+.title-positive {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+/* -----footer of the website-------- */
+footer {
+  background: black;
+  color: white;
+  padding-bottom: 100px;
+}
+.contact {
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+.contact ul {
+  display: flex;
+  margin-top: 10px;
+  padding-left: 0px;
+}
+.contact li {
+  list-style: none;
+  margin-right: 10px;
+}
+.contact li img {
+  height: 30px;
+}
+.subscribe {
+  padding-top: 100px;
+  width: 50%;
+  padding-left: 150px;
+}
+.email,
+.phone {
+  padding-top: 10px;
+}
+.title-contact {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.title-subscribe {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+input {
+  background-color: black;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 250px;
+  color: white;
 }
